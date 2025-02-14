@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sceneries of Vietnam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px;
+            background: #e3f2fd;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        ul li:hover {
+            background: #bbdefb;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #0277bd;
+        }
+        .place {
+            margin: 20px 0;
+            padding: 15px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Large Screen View - 998px */
+        @media (max-width: 998px) {
+            .place {
+                width: 30vw;
+            }
+        }
+
+        /* Tablet View - 772px */
+        @media (max-width: 772px) {
+            .place {
+                width: 45vw;
+                padding: 10px;
+                margin: auto;
+            }
+            .place img {
+                max-height: 30vh;
+                object-fit: cover;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Vietnam's Beautiful Locations</h1>
+        <p>Vietnam is a country of breathtaking landscapes and rich cultural heritage. From ancient capitals to stunning coastal destinations, there are countless places to explore. Below are some of the most famous and beautiful locations you should visit:</p>
+        <ul>
+            <li><a href="#hue">Hue Ancient Capital</a></li>
+            <li><a href="#halong">Ha Long Bay</a></li>
+            <li><a href="#vungtau">Vung Tau</a></li>
+        </ul>
+
+        <div class="place" id="hue">
+            <h2>Hue Ancient Capital</h2>
+            <img src="https://media.vov.vn/sites/default/files/styles/large/public/2023-01/duyet_thi_duong_hien_la_nha_hat_nghe_thuat_truyen_thong_cung_dinh_hue.jpeg.jpg" alt="Hue Ancient Capital">
+            <p>As part of the Hue Monuments Complex, Hue Citadel bears the cultural, historical, and architectural imprint of the Nguyen Dynasty. Recognized by UNESCO as a World Heritage Site, Hue is rich in history and culture, featuring ancient temples, palaces, and stunning landscapes.</p>
+        </div>
+
+        <div class="place" id="halong">
+            <h2>Ha Long Bay</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Ha_Long_Bay.jpg" alt="Ha Long Bay">
+            <p>Known for its thousands of limestone islands, Ha Long Bay is a must-see natural wonder. Recognized by UNESCO as a World Heritage Site, this bay features breathtaking caves, emerald waters, and stunning rock formations that attract millions of visitors each year.</p>
+        </div>
+
+        <div class="place" id="vungtau">
+            <h2>Vung Tau</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/B%E1%BB%9D_bi%E1%BB%83n_V%C5%A9ng_T%C3%A0u.JPG" alt="Vung Tau Beach">
+            <p>Vung Tau is a vibrant coastal city known for its relaxing beaches, delicious seafood, and lively atmosphere. It is a popular weekend getaway for locals and tourists alike, offering breathtaking ocean views, spiritual landmarks, and adventure activities.</p>
+        </div>
+
+        <footer>
+            <p>Made by Nguyen Xuan Quy of FPT University</p>
+        </footer>
+    </div>
+</body>
+</html>
